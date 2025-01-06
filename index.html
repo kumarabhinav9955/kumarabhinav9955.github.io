@@ -148,45 +148,27 @@
 		          	<div class="text">
 		          		<span class="subheading">NAMASTE!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Kumar Abhinav</span></h1>
-
-						<!-- Element to contain animated typing -->
 						<span id="typing-animation"></span>
-
 						<script>
-
-						// Initialize the typing animation
 						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
 						const typingTexts = [
 						'Web Developer  '
-						
 						];
-
-						// Create a function to display the typing animation for a given text
 						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 200); 
 						}
-
-						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
 						}, text.length * 200);
 						}
-
-						// Start the typing animation loop
 						playTypingAnimation(typingTexts[0]);
-
 						</script>
-
 						<br>
 						<br>
-						
 			            <p><a href="https://www.linkedin.com/in/kumar-abhinav-a32815179/" class="btn btn-primary py-3 px-4">LinkedIn</a>
 							<a href="https://github.com/kumarabhinav9955" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 		            </div>
@@ -394,7 +376,7 @@ file size and a more consistent design across applications. </li>
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
     					<span class="date">2019-2020</span>
-    					<h2>Class 12th Board  </h2>
+    					<h2>Class 12th </h2>
     					<span class="position">Delhi State Open School</span>
     					<p class="mt-4">Grade: 75%.</p>
     				</div>
@@ -415,9 +397,6 @@ file size and a more consistent design across applications. </li>
     		</div>
     	</div>
     </section>
-
-   
-
     <section class="ftco-section" id="project-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
@@ -465,7 +444,6 @@ file size and a more consistent design across applications. </li>
           </div>
         </div>
 	<br>
-		<!-- added justify-content-center to center align the last two projects -->
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
@@ -521,7 +499,6 @@ file size and a more consistent design across applications. </li>
       </div>
 	
 	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-			<!-- <div class="container"> -->
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>More projects on<span> Github  </span> </h2>
@@ -531,12 +508,8 @@ file size and a more consistent design across applications. </li>
 						</div>
 					</div>
 				</div>
-			<!-- </div> -->
 		</div>
 	</section>
-
-
-
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
@@ -546,7 +519,6 @@ file size and a more consistent design across applications. </li>
             <p>Below are the details to reach out to me!</p>
           </div>
         </div>
-
         <div class="row d-flex contact-info mb-5">
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
@@ -588,14 +560,11 @@ file size and a more consistent design across applications. </li>
 		  <div class="container">
 			<br>
 			<br>
-			
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <li class="ftco-animate normal-txt">Find me on  </li>
 					
 					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/kumar-abhinav-a32815179/"><span class="icon-linkedin"></span></a></li>
-					
-					
 				      <li class="ftco-animate"><a href="https://www.instagram.com/kumar_abhinav__/"><span class="icon-instagram"></span></a></li>
 					</ul>
 				<br>
@@ -611,16 +580,16 @@ file size and a more consistent design across applications. </li>
 		  <div class="row">
 			<div class="col-md-12 text-center">
   
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			  <p>
 	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	</p>
 			</div>
 		  </div>
 		</div>
 	  </footer>
 
 
-  <!-- loader -->
+
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
